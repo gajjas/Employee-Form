@@ -1,0 +1,109 @@
+/* Class Selectors */
+
+.button {
+    margin: 5% 10px;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(102, 114, 146);
+    padding: 10px;
+    border-radius: 2rem;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    background-color: rgb(241, 227, 221);
+    min-width: 200px;
+    height: 100%;
+    margin: auto;
+    width: 75%;
+    border: 3px solid rgb(102, 114, 146);
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+.employeeCheck {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    align-content: center;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+}
+
+.formItem {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    text-align: center;
+}
+
+.full {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* ID Selectors */
+
+#formId {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#currentEmployee {
+    width: auto;
+    height: auto;
+}
+
+
+/* Element Selectors */
+
+input {
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 40px;
+    padding: 5px;
+}
+
+input:focus {
+    outline-color: rgb(102, 114, 146);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: rgb(58, 64, 82);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(140, 156, 181);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 100%;
+}
